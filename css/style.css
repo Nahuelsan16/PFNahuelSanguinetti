@@ -5,6 +5,7 @@
 
 body {
   background-color: rgba(204, 248, 203, 0.898);
+  height: 100%;
 }
 
 header nav h1 {
@@ -12,6 +13,14 @@ header nav h1 {
 }
 header nav h1 span {
   color: rgb(34, 179, 236);
+}
+
+#inicio div h5 a {
+  text-decoration: none;
+  color: rgb(253, 254, 254);
+}
+#inicio div h5 a:hover {
+  color: rgb(236, 51, 34);
 }
 
 /*# sourceMappingURL=style.css.map */
