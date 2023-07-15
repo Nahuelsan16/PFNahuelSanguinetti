@@ -1,19 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-} 
-$colorCesped:  rgb(22, 108, 28);
-$colorH2O: rgb(34, 179, 236);
+@import "./modulos/variables";
+@import "./modulos/general";
+@import "./modulos/header";
 
-header{
-    h1{
-        color: $colorCesped;
-        span{
-            color: $colorH2O;
-        }
-    }
-}
-body{
-    background-color:  rgba(204, 248, 203, 0.898);
-
-}

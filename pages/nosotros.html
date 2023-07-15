@@ -10,50 +10,52 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" type="image/x-icon" href="../assets/1685152960 (2).ico">
-    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Nosotros</title>
 </head>
 
 <body>
     <header>
-        <div class="col-12 d-flex justify-content-center align-items-center  bg-white" id="logo">
+        <!-- <div class="col-12 d-flex justify-content-center align-items-center  bg-white" id="logo">
             <h1>Cespedes <span>H2O</span></h1>
-            <!-- <img class="titulo" src="/assets/CESPEDES H2O LOGO IMAGEN.JPG" alt="logo"> -->
-        </div>
-        <!-- <nav class="col-12 bg-light">
-            <ul class="d-flex justify-content-evenly align-items-center ">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="/pages/paisajismo.html">Paisajismo</a></li>
-                <li><a href="/pages/riego.html">Riego</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="/pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        </div>-->
+        <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <a class="navbar-brand" href="../index.html">
+                    <h1>Céspedes <span>H2O</span></h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="mynavbar">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./paisajismo.html">Paisajismo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./riego.html">Riego</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="text" placeholder="Buscar">
-                        <button class="btn btn-primary" type="button">Buscar</button>
-                    </form>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paisajismo.html">Paisajismo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./riego.html">Riego</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </nav>
