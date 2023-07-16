@@ -23,4 +23,38 @@ header nav h1 span {
   color: rgb(236, 51, 34);
 }
 
+#card_inicio {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+#card_inicio .card {
+  background-color: rgba(7, 20, 7, 0.898);
+  border: 0.25rem solid;
+}
+#card_inicio .card .card-body {
+  color: rgb(253, 254, 254);
+}
+
+#servicios .servicios-titulo {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+#servicios .servicios-titulo h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgba(1, 74, 141, 0.935);
+  text-decoration: underline;
+}
+#servicios .servicios-section {
+  text-align: left;
+}
+#servicios .servicios-img {
+  display: inline;
+}
+#servicios .servicios-img img {
+  align-items: end;
+  width: 13rem;
+  margin: 0.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

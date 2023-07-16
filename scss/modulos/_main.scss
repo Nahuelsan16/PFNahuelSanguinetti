@@ -1,13 +1,51 @@
 #inicio {
-    div{
-        h5{
-            a{
+    div {
+        h5 {
+            a {
                 text-decoration: none;
                 color: $color1;
-                &:hover{
+
+                &:hover {
                     color: $color2;
                 }
             }
+        }
+    }
+}
+
+#card_inicio {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    .card{
+        background-color: $colorfondodos;
+        border: 0.25rem solid ;
+        .card-body{
+            color: $color1;
+        }
+    }
+
+}
+#servicios{
+    .servicios-titulo{
+        margin: 0.5rem;
+        padding: 0.5rem;
+        h2{
+            font-size: 2rem;
+            text-align: center;
+            color: $color3;
+            text-decoration: underline;
+        }
+    }
+    .servicios-section{
+        text-align: left;
+        
+    }
+    .servicios-img{
+        display: inline;
+        img{
+            align-items: end;
+            width: 13rem;
+            margin: 0.5rem;
         }
     }
 }
