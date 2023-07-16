@@ -48,6 +48,13 @@ header nav h1 span {
 #servicios .servicios-section {
   text-align: left;
 }
+#servicios .servicios-section button a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+#servicios .servicios-section button a:hover {
+  color: rgb(255, 255, 255);
+}
 #servicios .servicios-img {
   display: inline;
 }
@@ -55,6 +62,26 @@ header nav h1 span {
   align-items: end;
   width: 13rem;
   margin: 0.5rem;
+}
+
+#contacto {
+  background-color: rgba(204, 248, 203, 0.898);
+}
+#contacto div {
+  padding-left: 1rem;
+}
+
+#nosotros div #jardin {
+  background-image: url(../../assets/bridge-g1a63e7a7f_1280.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: bottom;
+}
+#nosotros div #puente {
+  background-image: url(../../assets/indian-.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: bottom;
 }
 
 /*# sourceMappingURL=style.css.map */

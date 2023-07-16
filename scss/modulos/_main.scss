@@ -16,36 +16,80 @@
 #card_inicio {
     margin: 0.5rem;
     padding: 0.5rem;
-    .card{
+
+    .card {
         background-color: $colorfondodos;
-        border: 0.25rem solid ;
-        .card-body{
+        border: 0.25rem solid;
+
+        .card-body {
             color: $color1;
         }
     }
 
 }
-#servicios{
-    .servicios-titulo{
+
+#servicios {
+    .servicios-titulo {
         margin: 0.5rem;
         padding: 0.5rem;
-        h2{
+
+        h2 {
             font-size: 2rem;
             text-align: center;
             color: $color3;
             text-decoration: underline;
         }
     }
-    .servicios-section{
+
+    .servicios-section {
         text-align: left;
-        
+
+        button {
+            a {
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
     }
-    .servicios-img{
+
+    .servicios-img {
         display: inline;
-        img{
+
+        img {
             align-items: end;
             width: 13rem;
             margin: 0.5rem;
+        }
+    }
+}
+
+#contacto {
+    background-color: $colorfondoprincipal;
+
+    div {
+        padding-left: 1rem;
+    }
+    }
+
+
+#nosotros {
+    div {
+        #jardin {
+            background-image: url(../../assets/bridge-g1a63e7a7f_1280.jpg);
+            height: 50vh;
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        #puente {
+            background-image: url(../../assets/indian-.jpg);
+            height: 50vh;
+            background-size: cover;
+            background-position: bottom;
         }
     }
 }
