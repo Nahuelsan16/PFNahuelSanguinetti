@@ -72,16 +72,20 @@ header nav h1 span {
 }
 
 #nosotros div #jardin {
-  background-image: url(../../assets/bridge-g1a63e7a7f_1280.jpg);
+  background-image: url(../assets/garden.riego.jpg);
   height: 50vh;
   background-size: cover;
   background-position: bottom;
 }
 #nosotros div #puente {
-  background-image: url(../../assets/indian-.jpg);
+  background-image: url(../assets/indian-.jpg);
   height: 50vh;
   background-size: cover;
   background-position: bottom;
+}
+
+#productos {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
